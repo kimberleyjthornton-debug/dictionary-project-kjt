@@ -1,9 +1,17 @@
 import "./App.css";
+import React from "react";
+import Dictionary from "./Dictionary";
 
 function App() {
   return (
-    <div className="Dictionary App">
+    <div className="App">
       <div className="container">
+        <header>
+          <h1>Dictionary App</h1>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
         <footer className="text-align">
           This project was coded by{" "}
           <a
