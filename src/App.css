@@ -1,5 +1,5 @@
 body {
-  background-color: #f8f9fa;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
 .App {
@@ -8,7 +8,15 @@ body {
   border: none;
 }
 
+.App h1 {
+  font-size: 54px;
+}
 .App footer {
-  font-size: 16px;
+  font-size: 14px;
+  color: rgb(108, 108, 108);
   text-align: center;
+}
+
+.App a {
+  color: black;
 }

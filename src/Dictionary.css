@@ -1,4 +1,22 @@
 .Dictionary section {
-  background-color: white;
-  margin-top: 20px;
+  background: white;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
+  margin: 20px 0;
+}
+
+.Dictionary .form-search-bar {
+  width: 87%;
+  border-radius: 4px;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.Dictionary .suggestions {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 2px;
+  opacity: 0.6;
 }
