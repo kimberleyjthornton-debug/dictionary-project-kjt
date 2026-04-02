@@ -2,3 +2,19 @@
   border-radius: 4px;
   margin: 10px;
 }
+
+@media (max-width: 600px) {
+  .Photos .col-4 {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px; /* Space between the stacked images */
+  }
+  .Photos .col-4:nth-child(n + 4) {
+    display: none;
+  }
+  .Photos img {
+    padding: 0;
+    margin: 2px;
+  }
+}

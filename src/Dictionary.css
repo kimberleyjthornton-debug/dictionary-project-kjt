@@ -20,3 +20,12 @@
   margin-left: 3px;
   opacity: 0.8;
 }
+
+@media (max-width: 600px) {
+  .Dictionary .form-search-bar {
+    width: 100%;
+  }
+  .Dictionary .btn {
+    display: none;
+  }
+}

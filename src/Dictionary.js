@@ -57,7 +57,7 @@ export default function Dictionary(props) {
             <input
               type="submit"
               value="Search"
-              className="btn btn-dark color-white ms-2 mb-1 rounded-1"
+              className="btn btn-dark color-white ms-3 mb-1 rounded-1"
             />
             <div className="suggestions mt-1 ms-2">
               i.e. sunset, yoga, rainbow, kaleidoscope..
