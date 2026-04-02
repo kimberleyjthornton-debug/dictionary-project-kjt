@@ -10,7 +10,7 @@ function App() {
           <h1 className="fw-bold text-center">Dictionary App</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="text-align">
           This project was coded by{" "}
