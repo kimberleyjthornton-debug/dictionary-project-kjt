@@ -15,8 +15,8 @@
 }
 
 .Dictionary .suggestions {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 5px;
-  margin-left: 2px;
-  opacity: 0.6;
+  margin-left: 3px;
+  opacity: 0.8;
 }
