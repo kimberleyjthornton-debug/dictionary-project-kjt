@@ -8,6 +8,10 @@ body {
   border: none;
 }
 
+.App h1 {
+  font-size: 60px;
+}
+
 .App footer {
   font-size: 14px;
   color: rgb(108, 108, 108);
@@ -16,4 +20,16 @@ body {
 
 .App a {
   color: black;
+}
+
+@media (max-width: 600px) {
+  .App {
+    margin: 10px;
+  }
+  .App h1 {
+    font-size: 40px;
+  }
+  .App footer {
+    font-size: 12px;
+  }
 }
